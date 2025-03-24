@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { AnchorIcon, MenuIcon, X } from 'lucide-react';
@@ -44,7 +43,7 @@ const Navbar = () => {
           className="flex items-center gap-2 text-white transition-transform duration-300 hover:scale-105"
         >
           <AnchorIcon className="h-6 w-6 text-gold animate-float" />
-          <span className="font-serif text-xl md:text-2xl font-semibold">7Founder</span>
+          <span className="font-serif text-xl md:text-2xl font-semibold">7Founders</span>
         </a>
         
         {/* Desktop Navigation */}

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { AnchorIcon } from 'lucide-react';
 
@@ -10,7 +9,7 @@ const FooterSection: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center gap-2 text-white">
               <AnchorIcon className="h-6 w-6 text-gold" />
-              <span className="font-serif text-xl font-semibold">7Founder</span>
+              <span className="font-serif text-xl font-semibold">7Founders</span>
             </a>
             <p className="text-white/60 mt-2 text-sm">
               Connecting depth with vision
@@ -28,7 +27,7 @@ const FooterSection: React.FC = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-white/50 text-sm">
-            © 2023 7Founder. All rights reserved.
+            © 2023 7Founders. All rights reserved.
           </p>
         </div>
       </div>

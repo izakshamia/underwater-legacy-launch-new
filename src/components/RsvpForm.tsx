@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { toast } from 'sonner';
 import { cn } from '@/lib/utils';
@@ -42,7 +41,7 @@ const RsvpForm = () => {
       <div className="glass-card p-8 animate-fade-in text-center">
         <h3 className="text-gold text-2xl font-serif mb-4">Thank You!</h3>
         <p className="text-white/80 mb-6">
-          Your RSVP has been successfully submitted. We look forward to seeing you at the 7Founder launch event!
+          Your RSVP has been successfully submitted. We look forward to seeing you at the 7Founders launch event!
         </p>
         <div className="w-20 h-20 mx-auto relative">
           <div className="sonar-wrapper">
