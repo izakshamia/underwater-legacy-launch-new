@@ -22,10 +22,10 @@ export const speakers: SpeakerType[] = [
     imageSrc: "https://media.licdn.com/dms/image/v2/C4D03AQGxdEBiaBTpHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605211551363?e=1748476800&v=beta&t=LJZkVFNssFodstQbNrRsymHN_r0F2USetFnhnUZIL-k",
     featured: true
   },
-  {
-    name: "Naftali Bennett",
-    title: "13th Prime Minister of Israel",
-    description: "Founder & CEO CyotaCyota.",
-    imageSrc: "https://media.licdn.com/dms/image/v2/C4E03AQH-3PjVOBcMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668074889897?e=1748476800&v=beta&t=Dk1ztx4lJP7eHUIPgoX2l8JooDCf0739cKO4EczoSPY"
-  }
+  // {
+  //   name: "Naftali Bennett",
+  //   title: "13th Prime Minister of Israel",
+  //   description: "Founder & CEO CyotaCyota.",
+  //   imageSrc: "https://media.licdn.com/dms/image/v2/C4E03AQH-3PjVOBcMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668074889897?e=1748476800&v=beta&t=Dk1ztx4lJP7eHUIPgoX2l8JooDCf0739cKO4EczoSPY"
+  // }
 ];

@@ -56,7 +56,7 @@ const AgendaSection: React.FC<AgendaSectionProps> = ({ agendaItems }) => {
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 reveal">
             <span className="relative inline-block">
               Event Agenda
-              <span className="absolute -top-5 -right-8 text-gold text-lg rotate-12">7m</span>
+              <span className="absolute -top-5 -right-8 text-gold text-lg rotate-12">6m</span>
             </span>
           </h2>
           <div className="w-20 h-1 bg-gold mx-auto mb-6 reveal"></div>

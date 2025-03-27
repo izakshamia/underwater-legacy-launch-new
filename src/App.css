@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.your-custom-button-class {
+  background-color: #FFD700; /* Gold background */
+  color: #000; /* Black text */
+  padding: 10px 20px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  display: inline-block; /* Make it behave like a button */
+}
+
+.your-custom-button-class:hover {
+  background-color: #FFC107; /* Darker gold on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

@@ -1,8 +1,29 @@
-
-import React from 'react';
-import RsvpForm from '@/components/RsvpForm';
+import React, { useEffect } from 'react';
+import GoldButton from '@/components/GoldButton';
 
 const RsvpSection: React.FC = () => {
+  useEffect(() => {
+    // Load Luma script
+    const script = document.createElement('script');
+    script.id = 'luma-checkout';
+    script.src = 'https://embed.lu.ma/checkout-button.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup script when component unmounts
+      const existingScript = document.getElementById('luma-checkout');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
+
+  const handleButtonClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    // Luma script should handle the popup
+  };
+
   return (
     <section id="rsvp" className="py-20 relative">
       <div className="container mx-auto px-6">
@@ -14,8 +35,16 @@ const RsvpSection: React.FC = () => {
           </p>
         </div>
         
-        <div className="max-w-2xl mx-auto reveal">
-          <RsvpForm />
+        <div className="max-w-2xl mx-auto text-center reveal">
+          <GoldButton
+            href="https://lu.ma/event/evt-icolKpkYicCgNmk"
+            size="lg"
+            data-luma-action="checkout"
+            data-luma-event-id="evt-icolKpkYicCgNmk"
+            onClick={handleButtonClick}
+          >
+            RSVP Now
+          </GoldButton>
         </div>
       </div>
     </section>

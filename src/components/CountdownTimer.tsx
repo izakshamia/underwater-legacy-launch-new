@@ -9,8 +9,8 @@ interface TimeLeft {
 }
 
 const CountdownTimer = () => {
-  // Date: May 22, 2025
-  const eventDate = new Date('2025-05-22T00:00:00');
+  // Date: May 21, 2025
+  const eventDate = new Date('2025-05-21T00:00:00');
   
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: 0,

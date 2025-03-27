@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center mb-10">
           <div className="inline-block mb-3 reveal">
             <span className="px-3 py-1 rounded-full bg-gold/20 text-gold-light text-sm font-medium backdrop-blur-sm">
-              January 5, 2024 • Exclusive Event
+              May 21, 2025 • Exclusive Event
             </span>
           </div>
           

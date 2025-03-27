@@ -31,9 +31,14 @@ const LocationSection: React.FC = () => {
                 An elegant waterfront venue with panoramic views of the Mediterranean, providing the perfect backdrop for our prestigious gathering.
               </p>
               
-              <GoldButton variant="outline" className="self-start">
+              <a
+                href="https://www.google.com/maps/place/Playground+Restaurant+-+מסעדת+פלייגראונד%E2%80%AD/@32.0778045,34.7943252,17z/data=!3m1!4b1!4m6!3m5!1s0x151d4b1e09eff507:0xa466c318f978245e!8m2!3d32.0778045!4d34.7943252!16s%2Fg%2F11l24ff9hr?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 text-gold hover:text-gold-light transition-colors"
+              >
                 Get Directions
-              </GoldButton>
+              </a>
             </div>
             
             <div className="relative h-64 md:h-auto">

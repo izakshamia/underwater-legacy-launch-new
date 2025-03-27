@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { cn } from '@/lib/utils';
 import { ArrowRightIcon, AnchorIcon } from 'lucide-react';
 
 interface GoldButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'solid' | 'outline';
-  size?: 'sm' | 'md' | 'lg';
+  variant?: 'default' | 'outline';
+  size?: 'default' | 'sm' | 'lg';
   className?: string;
   children: React.ReactNode;
   href?: string;
@@ -14,8 +13,8 @@ interface GoldButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> 
 }
 
 const GoldButton: React.FC<GoldButtonProps> = ({
-  variant = 'solid',
-  size = 'md',
+  variant = 'default',
+  size = 'default',
   className,
   children,
   href,
@@ -23,25 +22,20 @@ const GoldButton: React.FC<GoldButtonProps> = ({
   showAnchor = false,
   ...props
 }) => {
-  const baseStyles = "font-medium rounded-md relative transition-all duration-300 overflow-hidden group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold/50 focus:ring-offset-navy-dark";
+  const baseStyles = "inline-flex items-center justify-center rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2";
   
-  const variantStyles = {
-    solid: "bg-gold text-navy-dark hover:bg-gold-light",
-    outline: "bg-transparent text-gold border border-gold hover:bg-gold/10"
+  const variants = {
+    default: "bg-gold hover:bg-gold-light text-navy-dark",
+    outline: "border-2 border-gold text-gold hover:bg-gold/10"
   };
   
-  const sizeStyles = {
-    sm: "px-3 py-1.5 text-sm",
-    md: "px-4 py-2",
-    lg: "px-6 py-3 text-lg"
+  const sizes = {
+    default: "h-10 px-6 py-2",
+    sm: "h-9 px-4",
+    lg: "h-12 px-8 text-lg"
   };
   
-  const classes = cn(
-    baseStyles,
-    variantStyles[variant],
-    sizeStyles[size],
-    className
-  );
+  const Component = href ? 'a' : 'button';
   
   const content = (
     <>
@@ -70,18 +64,19 @@ const GoldButton: React.FC<GoldButtonProps> = ({
     </>
   );
   
-  if (href) {
-    return (
-      <a href={href} className={classes}>
-        {content}
-      </a>
-    );
-  }
-  
   return (
-    <button className={classes} {...props}>
+    <Component
+      href={href}
+      className={cn(
+        baseStyles,
+        variants[variant],
+        sizes[size],
+        className
+      )}
+      {...props}
+    >
       {content}
-    </button>
+    </Component>
   );
 };
 
