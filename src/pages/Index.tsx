@@ -36,6 +36,8 @@ const Index = () => {
   // Modal states
   const [activeVideoPreview, setActiveVideoPreview] = useState<boolean>(false);
   const [activeSpeaker, setActiveSpeaker] = useState<number | null>(null);
+  const [selectedSpeaker, setSelectedSpeaker] = useState<SpeakerType | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   
   // Keyboard event for closing modals
   useEffect(() => {
@@ -49,6 +51,16 @@ const Index = () => {
     window.addEventListener('keydown', handleEscape);
     return () => window.removeEventListener('keydown', handleEscape);
   }, []);
+
+  const handleOpenModal = (speaker: SpeakerType) => {
+    setSelectedSpeaker(speaker);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedSpeaker(null);
+    setIsModalOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-navy bg-navy-texture">

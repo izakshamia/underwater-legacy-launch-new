@@ -18,8 +18,8 @@ export const agendaItems: AgendaItemType[] = [
   },
   {
     time: "19:30 - 20:00",
-    title: "Special Guest",
-    description: "Presentation by our special guest.",
+    title: "Special Speaker",
+    description: "Presentation by our special speaker.",
   },
   {
     time: "20:00 - 21:10",

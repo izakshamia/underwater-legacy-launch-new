@@ -24,11 +24,12 @@ const LocationSection: React.FC = () => {
               </div>
               
               <p className="text-white/80 mb-4">
-                Playground Restaurant - מסעדת פלייגראונד כתובת: דרך מנחם בגין 144 ז׳, שוכנת בלובי מלון פליי מידטאון, דרך מנחם בגין 144, תל אביב-יפו
+                Playground Restaurant - 
+                 כתובת: דרך מנחם בגין 144 ז׳, שוכנת בלובי מלון פליי מידטאון, דרך מנחם בגין 144, תל אביב-יפו
               </p>
               
               <p className="text-white/80 mb-6">
-                An elegant waterfront venue with panoramic views of the Mediterranean, providing the perfect backdrop for our prestigious gathering.
+                {/* An elegant waterfront venue with panoramic views of the Mediterranean, providing the perfect backdrop for our prestigious gathering. */}
               </p>
               
               <a
