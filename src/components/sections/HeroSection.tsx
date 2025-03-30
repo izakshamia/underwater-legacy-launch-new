@@ -39,11 +39,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 reveal">
-<<<<<<< HEAD
-            <span className="block">The <span className="text-gold-gradient">7Founders</span></span>
-=======
             <span className="block">The <span className="text-gold-gradient">7FOUNDERS</span></span>
->>>>>>> 41aaab1 (style: update brand name from '7Founders' to '7FOUNDERS')
             <span className="block mt-2">Launch Event</span>
           </h1>
           
