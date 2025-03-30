@@ -9,7 +9,11 @@ const FooterSection: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center gap-2 text-white">
               <AnchorIcon className="h-6 w-6 text-gold" />
+<<<<<<< HEAD
               <span className="font-serif text-xl font-semibold">7Founders</span>
+=======
+              <span className="font-serif text-xl font-semibold">7FOUNDERS</span>
+>>>>>>> 41aaab1 (style: update brand name from '7Founders' to '7FOUNDERS')
             </a>
             <p className="text-white/60 mt-2 text-sm">
               Connecting depth with vision
@@ -27,7 +31,11 @@ const FooterSection: React.FC = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-white/50 text-sm">
+<<<<<<< HEAD
             © 2023 7Founders. All rights reserved.
+=======
+            © 2023 7FOUNDERS. All rights reserved.
+>>>>>>> 41aaab1 (style: update brand name from '7Founders' to '7FOUNDERS')
           </p>
         </div>
       </div>

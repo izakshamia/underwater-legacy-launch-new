@@ -39,9 +39,15 @@ const SpeakerModal: React.FC<SpeakerModalProps> = ({ speaker, onClose }) => {
         </button>
 
         {/* Content */}
+<<<<<<< HEAD
         <div className="flex flex-col md:flex-row">
           <div className="md:w-2/5 relative">
             <div className="aspect-[3/4] md:h-full">
+=======
+        <div className="flex flex-col md:flex-row h-[80vh] md:h-auto">
+          <div className="w-full md:w-[250px] flex-shrink-0">
+            <div className="relative h-[300px] md:h-full">
+>>>>>>> 41aaab1 (style: update brand name from '7Founders' to '7FOUNDERS')
               <img
                 src={speaker.imageSrc}
                 alt={speaker.name}
@@ -50,7 +56,11 @@ const SpeakerModal: React.FC<SpeakerModalProps> = ({ speaker, onClose }) => {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="p-6 md:p-8 md:w-3/5">
+=======
+          <div className="p-6 md:p-8 flex-1 overflow-y-auto">
+>>>>>>> 41aaab1 (style: update brand name from '7Founders' to '7FOUNDERS')
             <div className="mb-2">
               <span className="px-2 py-1 bg-gold-dark/20 text-gold-light text-xs rounded-full">
                 {speaker.featured ? 'Special Guest' : 'Speaker'}
