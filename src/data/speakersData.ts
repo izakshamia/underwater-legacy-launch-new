@@ -5,8 +5,7 @@ export const speakers: SpeakerType[] = [
     name: "Amir Nechemia",
     title: "ConnectTeam CEO",
     description: "CEO of ConnectTeam, leading innovative solutions for team management. With a background in submarine operations, Amir has transformed his military leadership experience into building successful tech companies.",
-    imageSrc: "https://media.licdn.com/dms/image/C4D03AQFn4zOaGG5zSg/profile-displayphoto-shrink_800_800/0/1516246576099?e=1748476800&v=beta&t=BvR_7PquUkQvE_7LL5qffTvDN4ONyQrHxQ7u91t5LxE",
-    featured: true
+    imageSrc: "https://media.licdn.com/dms/image/C4D03AQFn4zOaGG5zSg/profile-displayphoto-shrink_800_800/0/1516246576099?e=1748476800&v=beta&t=BvR_7PquUkQvE_7LL5qffTvDN4ONyQrHxQ7u91t5LxE"
   },
   {
     name: "Ido Almani",
@@ -18,7 +17,7 @@ export const speakers: SpeakerType[] = [
   {
     name: "Or Azarzar",
     title: "Co-Founder & CTO at Lightspin",
-    description: "Director of Engineering at Cisco, with a focus on cloud security.",
+    description: "Or Azarzar began his career as a sonar soldier in the Israeli Navy's submarine division. In January 2020, he co-founded Lightspin, a cloud security startup. Under his leadership as CTO, Lightspin developed advanced solutions for cloud security posture management. In March 2023, Cisco announced its intent to acquire Lightspin for an estimated $250 million",
     imageSrc: "https://media.licdn.com/dms/image/v2/C4D03AQGxdEBiaBTpHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605211551363?e=1748476800&v=beta&t=LJZkVFNssFodstQbNrRsymHN_r0F2USetFnhnUZIL-k",
     featured: true
   },
