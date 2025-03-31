@@ -10,7 +10,7 @@ const EventSection: React.FC<{ onVideoPlay: () => void }> = ({ onVideoPlay }) =>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4 reveal">The Event</h2>
             <div className="w-20 h-1 bg-gold mx-auto mb-6 reveal"></div>
             <p className="text-white/80 max-w-2xl mx-auto reveal">
-              7Founders brings together the elite community of ex-submariners who have transformed their deep-sea expertise into entrepreneurial excellence. This launch event marks the beginning of a new chapter in our collective journey.
+              7FOUNDERS brings together the elite community of ex-submariners who have transformed their deep-sea expertise into entrepreneurial excellence. This launch event marks the beginning of a new chapter in our collective journey.
             </p>
           </div>
           
@@ -51,7 +51,7 @@ const EventSection: React.FC<{ onVideoPlay: () => void }> = ({ onVideoPlay }) =>
               <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
                 <h3 className="text-2xl font-serif text-white mb-3">A New Chapter Begins</h3>
                 <p className="text-white/80 mb-4">
-                  The 7Founders represents the next evolution of our community—a structured forum where the unique skills, discipline, and perspective forged beneath the waves can be channeled into entrepreneurial success.
+                  The 7FOUNDERS represents the next evolution of our community—a structured forum where the unique skills, discipline, and perspective forged beneath the waves can be channeled into entrepreneurial success.
                 </p>
                 <p className="text-white/80">
                   This isn't just an event; it's the launch of a movement that will redefine what's possible when submarine veterans apply their expertise to business challenges.

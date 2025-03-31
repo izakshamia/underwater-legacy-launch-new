@@ -4,13 +4,14 @@ export const speakers: SpeakerType[] = [
   {
     name: "Amir Nechemia",
     title: "ConnectTeam CEO",
-    description: "CEO of ConnectTeam, leading innovative solutions for team management. With a background in submarine operations, Amir has transformed his military leadership experience into building successful tech companies.",
-    imageSrc: "https://media.licdn.com/dms/image/C4D03AQFn4zOaGG5zSg/profile-displayphoto-shrink_800_800/0/1516246576099?e=1748476800&v=beta&t=BvR_7PquUkQvE_7LL5qffTvDN4ONyQrHxQ7u91t5LxE"
+    description: "Amir Nehemia, a former submarine electronics officer, co-founded Connecteam in 2016 to enhance communication for deskless workers. Under his leadership, the platform has raised $160 million in funding and now serves over 500,000 users across 36,000 companies worldwide.",
+    imageSrc: "https://media.licdn.com/dms/image/v2/C4E03AQFaIYJlNucswg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516494406642?e=1748476800&v=beta&t=0xnY4vAplIvByL42q8-0ZvGd7sEMaIFedLweuTaghes",
+    featured: true
   },
   {
     name: "Ido Almani",
     title: "CEO Zoomd Technologies",
-    description: "Former CEO of American Express Israel, expert in executive leadership and technology.",
+    description: "Ido Almany, CEO of Zoomd Technologies (TSXV: ZOMD), is a tech-savvy executive with over a decade of experience in marketing, strategy, and execution. Prior to joining Zoomd, he led American Express Israel as General Manager and CEO of Premium Express LTD, achieving sustainable growth with annual revenues of $140 million",
     imageSrc: "https://media.licdn.com/dms/image/v2/C4D03AQHletAGZC8Xow/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663442799856?e=1748476800&v=beta&t=ZYBwtoBOLMpOYP12tRB7z3vb_WaSUFSgu2drRGhUSYk",
     featured: true
   },
