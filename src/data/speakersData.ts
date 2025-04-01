@@ -18,7 +18,7 @@ export const speakers: SpeakerType[] = [
   {
     name: "Or Azarzar",
     title: "Co-Founder & CTO at Lightspin",
-    description: "Or Azarzar began his journey as an electrician soldier in the submarine. In January 2020, he co-founded Lightspin, a cloud security startup. Under his leadership as CTO, Lightspin developed advanced solutions for cloud security posture management. In March 2023, Cisco announced its intent to acquire Lightspin for an estimated $250 million",
+    description: "Or Azarzar began his journey as an electrician soldier in the submarine. In January 20', he co-founded Lightspin, a cloud security startup. Under his leadership as CTO, Lightspin developed advanced solutions for cloud security posture management. On May 23', Lightspin was acquired by Cisco for an estimate of $250M",
     imageSrc: "https://media.licdn.com/dms/image/v2/C4D03AQGxdEBiaBTpHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605211551363?e=1748476800&v=beta&t=LJZkVFNssFodstQbNrRsymHN_r0F2USetFnhnUZIL-k",
     featured: true
   },
